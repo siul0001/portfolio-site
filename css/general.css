@@ -37,8 +37,14 @@ img{
    border-radius: 90px;
    border: 1px solid black;
    align-items: center; 
+   justify-content: center;
 } 
 
+.knap-wrapper {
+    display: flex;
+    justify-content: center; /* Centrerer vandret */
+    align-items: center;     /* Centrerer lodret (hvis du også vil det) */
+  }
 
 
 .knap:hover{

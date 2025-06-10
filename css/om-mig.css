@@ -18,17 +18,18 @@ h1{
     font-size: 64px;
 }
 
+
 .portræt{
-    width: 300px;      
-    height: 300px;
+    padding: 10px;
+}
+
+.portræt img{
+    width: 100%;      
+    height: 100%;
+    aspect-ratio: 2/2;
     border-radius: 50%;
     object-fit: cover;
-    margin: 4rem;
-    margin-top: 2rem;
-    margin-bottom: -20px;
-    margin-left: 90px;
-
-
+   
 }
 p{
     font-family: inter;
@@ -87,15 +88,23 @@ li{
 
 }
 
+
+.bttn-wrapper {
+    display: flex;
+    justify-content: center; /* Centrerer vandret */
+    align-items: center;     /* Centrerer lodret (hvis du også vil det) */
+  }
+
 a.bttn{
-    display: inline-block;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
     background-color: #333333;
     color: white;
     font-family: inter;
     text-decoration: none;
     padding: 1rem;
     margin-top: 2rem;
-    margin-left: 100px;
     width: 200px;
     text-align: center;
    border-radius: 90px;
@@ -111,7 +120,14 @@ a.bttn{
       @media(min-width:800px){
 
     .portræt{
-     margin-left: 35rem;
+        display: flex;
+        justify-content: center;
+    
+    }
+
+    .portræt img{
+        width: 30%;
+    
     }
 
     .grid_1-1_{
@@ -129,6 +145,11 @@ a.bttn{
     margin-left: 60px;
     margin-top: 60px;
     
+}
+
+.bttn-wrapper{
+    display: flex;
+    justify-content: left;
 }
 
 

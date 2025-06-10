@@ -22,10 +22,7 @@
 .footer_tekst p {
   font-family: "kalnia";
   font-weight: 400;
-  margin-bottom: 80px;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-top: 80px;
+  padding: 10px;
 } 
 
 
