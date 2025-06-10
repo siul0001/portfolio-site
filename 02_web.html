@@ -3,7 +3,69 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/header1.css" />
+    <link rel="stylesheet" href="js/menu.js" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/første-billede.css" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">HJEM</a></li>
+          <li><a href="mit_arbejde.html">MIT ARBEJDE</a></li>
+          <li><a href="om_mig.html">OM MIG</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <h1>02 WEB</h1>
+      <section class="grid_1-1v">
+        <div>
+          <h2>02.01.02-Website</h2>
+          <p class="introduktion">
+            I tema 02 udviklede jeg mit første mobiloptimerede website, som også fungerede som studiestartsprøven. Jeg lavede projektet ud fra udleverede wireframes og layoutdiagrammer som bestod af fem HTML-sider med en navigationsmenu og en
+            semantisk struktur. Jeg arbejdede mobile-first og brugte udleveret indhold, to fonte, farver samt margin og padding til styling.
+          </p>
+        </div>
+        <img class="studiestartsprøven" src="img/02_web/website.png" alt="" />
+      </section>
+      <section class="grid_1-1h">
+        <img src="img/02_web/wireframes_layoutdiagram.png" alt="wireframes" />
+        <div>
+          <h3>Wireframes og layoutdiagrammer</h3>
+          <p>
+            I opgaven arbejdede vi både med wireframes og layoutdiagrammer som grundlag for vores design og kodning. Wireframes fungerer som en enkel, visuel skitse, der viser placeringen af indhold som tekst og billeder. De hjælper med at skabe et
+            overblik over, hvordan siderne skal sættes op, inden man begynder at kode. Layoutdiagrammerne viser den tekniske opbygning af sitet – f.eks. hvordan sektioner og kolonner er fordelt. De gjorde det nemmere at oversætte designet til HTML og
+            CSS og var med til at sikre, at layoutet blev opbygget korrekt i forhold til wireframet.
+          </p>
+        </div>
+      </section>
+      <section class="grid_1-1v">
+        <div>
+          <h3>HTML & CSS</h3>
+          <p>
+            Til mit galleri brugte jeg CSS Grid til at lave en opsætning med fire kolonner og afstand mellem billederne. Hvert billede ligger i en div med en class, som styrer hvor mange kolonner og rækker det skal fylde. For eksempel fylder
+            .galleri01 to kolonner og to rækker, så det skiller sig ud. På den måde kunne jeg variere størrelsen på billederne og dermed få det til at matche med de wireframes vi havde fået udleveret.
+          </p>
+        </div>
+        <img class="html-css" src="img/02_web/html-css.png" alt="htmlcss" />
+        <a class="knap" href="https://silleulrich.dk/website/mobilsite/" target="_blank">SE MIN LØSNING HER</a>
+      </section>
+    </main>
+    <footer>
+      <div class="footer_tekst">
+        <p>Sille Ulrich</p>
+        <p>1. Semester</p>
+      </div>
+    </footer>
+    <script src="js/menu.js"></script>
+  </body>
 </html>

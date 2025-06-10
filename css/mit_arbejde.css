@@ -1,0 +1,146 @@
+
+/* Mit arbejde 02 */
+
+
+.intro_05{
+    margin: 50px;
+    margin-top: -50px;
+    text-align: left; 
+}
+
+
+.grid_1-1 img{
+    width: 300px;      
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+.grid_1-1 p{
+    margin: 50px;
+    margin-top: 10px;
+    text-align: center;  
+}
+
+.grid_1-1 h3{
+    text-align: center;
+}
+
+.sand-img:hover{
+    content: url(../img/mit_arbejde/sandkasse.png);
+    border: 1px solid black;   
+   
+}
+
+.virk-img:hover{
+    content: url(../img/mit_arbejde/hover/05.png);
+    border: 1px solid black;   
+   
+}
+
+.mit-arbejde img{
+    width: 300px;      
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 90px;
+    margin-bottom: 20px;
+}
+
+.mit-arbejde p{
+margin: 50px;
+margin-top: 10px;
+text-align: center;
+}
+
+.mit-arbejde h3{
+    text-align: center;
+}
+
+
+.billede02:hover{
+    content: url(../img/mit_arbejde/hover/02.webp);
+    border: 1px solid black;   
+   
+}
+
+.billede03:hover{
+    content: url(../img/mit_arbejde/hover/03.webp);
+    border: 1px solid black;   
+   
+}
+
+.billede04:hover{
+    content: url(../img/mit_arbejde/hover/04.png);
+    border: 1px solid black;   
+   
+}
+.billede05:hover{
+    content: url(../img/mit_arbejde/hover/05.png);
+    border: 1px solid black;   
+   
+}
+.billede06:hover{
+    content: url(../img/mit_arbejde/hover/06.png);
+    border: 1px solid black;   
+   
+}
+
+
+
+
+
+
+
+@media(min-width:800px){
+
+  h3{
+    text-align: center;
+  }
+
+.grid_1-1-1-1-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.grid_1-1-1-1-1 img{
+    width: 200px;
+    height: 200px;
+    margin-left: 45px;
+}
+
+.grid_1-1-1-1-1 p{
+    font-size: 16px;
+}
+
+.grid_1-1-1-1-1 h3{
+    font-size: 30px;
+
+}
+
+.intro_05 {
+    text-align: center;
+margin-top: -40px;
+padding-left: 300px;
+padding-right: 300px;
+}
+
+
+.grid_1-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid_1-1 img{
+    margin-left: 200px;
+    padding-right: -60px;
+}
+
+.grid_1-1 p{
+margin-left: 200px;
+margin-right: 200px;
+}
+
+}

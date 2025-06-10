@@ -1,0 +1,270 @@
+@font-face {
+    font-family: inter;
+    src: url(../font/Inter-kopi/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: kalnia;
+    src: url(../font/Kalnia-kopi/Kalnia-VariableFont_wdth\,wght.ttf);
+}
+
+*{
+padding: 0;
+margin: 0;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.grid_1-1v:last-child{
+    border: none;
+}
+.grid_1-1h:last-child{
+    border: none;
+}
+
+
+.knap{
+    display: block;
+    background-color: transparent;
+    color: black;
+    font-family: inter;
+    text-decoration: none;
+    padding: 1rem;
+    margin-bottom: 80px;
+    width: 200px;
+    text-align: center;
+   border-radius: 90px;
+   border: 1px solid black;
+   margin-left: 125px;
+}
+
+.knap:hover{
+    background-color: #333333; 
+    color: white;
+}
+
+.sammensat-billede{
+    margin-bottom: -80px;
+     
+ }
+
+body{
+    background-color: #F6F4EF;
+}
+
+h1{
+    font-family: kalnia;
+    font-size: 58px;
+    font-weight: 400;
+    text-align: center;
+    border-bottom: 1px solid black;
+    width: 80%;
+    margin-left: 40px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    
+}
+
+h2{
+    font-family: kalnia;
+    font-size: 48px;
+    font-weight: 400; 
+    margin-left: 100px;
+    margin-top: -40px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+h3{
+    font-family: kalnia;
+    font-size: 36px;
+    font-weight: 400;
+    /* text-align: left;   */
+}
+
+p{
+    font-family: inter;
+    font-weight: 120;
+    font-size: 20px;
+}
+
+
+
+.introduktion{
+    padding-top: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+    line-height: 2;
+  margin-top: -20px;
+  margin-bottom: 40px;
+}
+
+.grid_1-1h{
+    border-bottom: 1px solid black;
+}
+
+.grid_1-1h img{
+    width: 80%;
+    padding-left: 40px;
+    padding-top: 80px;
+    padding-bottom: 35px;
+}
+
+.grid_1-1h p{
+    padding-top: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+    line-height: 2;
+  margin-top: -20px;
+  margin-bottom: 40px;
+}
+
+.grid_1-1h h3{
+    padding-left: 40px;
+}
+
+.grid_1-1v{
+    border-bottom: 1px solid black;
+}
+.grid_1-1v img{
+    width: 80%;
+    padding-left: 40px;
+    padding-bottom: 80px;
+}
+
+.grid_1-1v p{
+    padding-top: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+    line-height: 2;
+  margin-top: -20px;
+  margin-bottom: 40px;
+}
+
+.grid_1-1v h2{
+    margin-left: 20px;
+    padding-left: 40px;
+}
+
+.grid_1-1v h3{
+    padding-top: 80px; 
+    padding-left: 40px;
+}
+
+
+
+/* .billede{
+   width: 80%;
+  padding-left: 40px;
+} */
+
+
+
+
+
+@media(min-width:800px){
+  
+    h1{
+        font-family: kalnia;
+        font-size: 64px;
+        font-weight: 400;
+        text-align: center;
+        border-bottom: 1px solid black;
+        width: 80%;
+        margin-left: 140px;
+        margin-top: 150px;
+    }  
+    h3{
+        text-align: left;
+        
+    }
+    h2{
+        margin-top: -80px;
+        
+    }
+
+    .knap{
+        margin-left: 550px;
+        margin-top: 80px;
+        margin-bottom: 10px;
+    }
+
+/* 02web */
+.grid_1-1v{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 1px solid black;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+.grid_1-1v h2{
+    padding-left: 115px;
+   
+}
+.grid_1-1v:last-child{
+    border: none;
+}
+.grid_1-1h:last-child{
+    border: none;
+}
+
+.grid_1-1v h3{
+    font-family: kalnia;
+    font-size: 36px;
+    font-weight: 400;
+    margin-left: 100px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    
+}
+
+.grid_1-1v p {
+    margin-left: 100px;
+    line-height: 2;
+    padding-right: 70px;
+}
+
+.grid_1-1v img{
+    width: 70%;
+    margin-top: 50px;
+}
+
+.grid_1-1h{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 1px solid black;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+
+
+.grid_1-1h h3{
+    padding-top: 80px;
+    margin-left: 0px;
+    padding-bottom: 20px;
+    padding-right: 150px;
+}
+.grid_1-1h p {
+    padding-right: 150px; 
+    line-height: 2;
+}
+
+.grid_1-1h img{
+    width: 70%;
+    margin-left: 140px;
+    margin-top: 50px;
+}
+
+/* Billeder som skal være tættere på hinanden */
+.sammensat-billede{
+   margin-bottom: -150px; 
+}
+
+/* 1. Billede på hvert tema */
+
+.billede{
+    margin-top: 800px;
+}
+
+
+}

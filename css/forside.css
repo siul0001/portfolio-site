@@ -1,0 +1,136 @@
+@font-face{
+  font-family: kalnia;
+ src: url(../font/Kalnia-kopi/Kalnia-VariableFont_wdth\,wght.ttf);
+ }
+ /* body{
+  background-color: #212529;
+  color: #F6F4EF;
+ } */
+ *{
+ margin: 0;
+ padding: 0;
+ }
+ .nav-index {
+ background-color: #000000;
+ }
+ .lottie-bg{
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100vw;
+ height: 100vh;
+ z-index: -1;
+ pointer-events: none;
+ object-fit: cover;
+ transform: rotate(0deg);
+ transform-origin: center;
+ }
+ body {
+ font-family: 'Kalnia', serif;
+ background-color: #212529;
+ color: #fff;
+ overflow: hidden;
+ position: relative;
+  }
+ .hero {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ align-items: center;
+ height: 90vh;
+ padding: 2rem;
+  }
+ /* .hero .info {
+  text-align: left;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  padding-right: 2rem;
+  } */
+ /* .hero .title {
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: left;
+  line-height: 1.1;
+  text-shadow: 2px 2px #000;
+  } */
+ h1{
+ font-family: kalnia;
+ -webkit-text-stroke: 3px #F6F4EF;
+ font-weight: 600;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ color: #000000;
+ font-size: 63px;
+ z-index: 10;
+ text-align: left;
+ margin-left: 100px;
+ margin-top: 10px;
+ border-left: 1px solid #F6F4EF;
+ padding-left: 20px;
+ }
+ p{
+ font-family: kalnia;
+ font-weight: 300;
+ color: #ffff;
+ font-size: 20px;
+ text-align: right;
+ }
+ @media(min-width:800px){
+ /* .lottie{
+  z-index: -1;
+  object-fit: cover;
+  position: relative;
+ } */
+ h1{
+ font-family: kalnia;
+ -webkit-text-stroke: 8px #F6F4EF;
+ font-weight: 600;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ color: #000000;
+ font-size: 10rem;
+ z-index: 10;
+ text-align: center;
+ margin-left: 300px;
+ border-left: 1px solid #F6F4EF;
+ padding-left: 20px;
+ }
+ p{
+ font-family: kalnia;
+ font-weight: 300;
+ color: #F6F4EF;
+ font-size: 25px;
+ text-align: right;
+ margin-right: 100px;
+ z-index: 10;
+ }
+ .hero {
+ flex-direction: column;
+ text-align: center;
+  }
+ /* .hero .info {
+  border: none;
+  padding: 0;
+  margin-bottom: 1rem;
+  } */
+ .hero .info {
+ text-align: left;
+ font-size: 1.2rem;
+ line-height: 2rem;
+ padding-right: 5rem;
+  }
+ .hero .title {
+ font-size: 2.5rem;
+  }
+ .lottie-bg {
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+ transform: rotate(0deg);
+ margin-left: 0px;
+  }
+ }
