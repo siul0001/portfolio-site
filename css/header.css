@@ -21,7 +21,6 @@
   font-family: inter;
   font-weight: 700;
   font-size: 24px;
-  color: black;
 }
 .menu a{
   text-decoration: none;
@@ -57,7 +56,6 @@
   } 
   .menu a{
     margin: 0;
-  
   }
 
   header{
@@ -104,4 +102,4 @@
     font-size: 24px;
   }
 
-}  
+}   
