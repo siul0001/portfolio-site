@@ -1,0 +1,137 @@
+
+body{
+    background-color: #F6F4EF;
+}
+
+
+.kontaktdiv p{
+    margin-bottom: -33px;
+}
+
+.underoverskrift {
+    font-weight: 600;
+}
+h1{
+    text-align: center;
+    font-family: kalnia;
+    font-weight: 400;
+    font-size: 64px;
+}
+
+.portræt{
+    width: 300px;      
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 4rem;
+    margin-top: 2rem;
+    margin-bottom: -20px;
+    margin-left: 90px;
+
+
+}
+p{
+    font-family: inter;
+    font-weight: 120;
+    font-size: 20px;
+}
+
+.grid_1-1_{
+    margin-left: 30px;
+}
+.grid_1-1_ h3{
+    font-family: kalnia;
+    font-weight: 400;
+    font-size: 36px;
+    border-bottom: 1px solid black;
+    width: 70%;
+    margin-left: 55px;
+    padding-top: 80px;
+    text-align: left;
+}
+
+.grid_1-1_ p{
+    padding-top: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+    line-height: 2;
+  margin-top: -20px;
+
+}
+
+.færdighed{
+    
+    padding-left: 65px;
+  
+}
+
+.grid_1-1{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.grid_1-1 p{
+    margin-top: 20px;
+}
+
+li{
+    font-family: inter;
+    font-weight: 120;
+    font-size: 20px;   
+}
+.kontakt p{
+  
+    padding-left: 60px;
+    padding-right: 60px;
+    line-height: 2;
+
+}
+
+a.bttn{
+    display: inline-block;
+    background-color: #333333;
+    color: white;
+    font-family: inter;
+    text-decoration: none;
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-left: 100px;
+    width: 200px;
+    text-align: center;
+   border-radius: 90px;
+      }
+ 
+      a.bttn:hover{
+        background-color: transparent;
+        color: black;
+        border-radius: 90px;
+        border: 1px solid black;
+      }
+
+      @media(min-width:800px){
+
+    .portræt{
+     margin-left: 35rem;
+    }
+
+    .grid_1-1_{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 100px;
+    }
+
+
+    .grid_1-1_ p{
+        padding-right: 170px;
+    }
+
+a.bttn{
+    margin-left: 60px;
+    margin-top: 60px;
+    
+}
+
+
+
+
+      }

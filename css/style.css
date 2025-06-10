@@ -1,0 +1,25 @@
+
+
+
+/********************FOOTER*********************/
+.footer_tekst {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  margin-top: 80px;
+  border-top: 1px solid black;
+}
+
+.footer_tekst p {
+  font-family: "kalnia";
+  font-weight: 400;
+  margin-bottom: 80px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 80px;
+
+}
+
+  

@@ -3,7 +3,89 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/header1.css" />
+    <link rel="stylesheet" href="js/menu.js" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/første-billede.css" />
+    <title>Animation</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">HJEM</a></li>
+          <li><a href="mit_arbejde.html">MIT ARBEJDE</a></li>
+          <li><a href="om_mig.html">OM MIG</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <h1>04 ANIMATION</h1>
+      <section class="grid_1-1v">
+        <div>
+          <h2>04.01.04-Emergency</h2>
+          <p class="introduktion">
+            I tema 04 arbejdede vi med at designe og udvikle dele af et Emergency-Site ud fra en fælles kode og nogle færdige wireframes. Jeg valgte at fokusere på situationen "forsinkede fly" og lavede en side med gode råd til, hvad man skal gøre,
+            hvis ens fly bliver forsinket. I løbet af de fire uger lavede jeg blandt andet en interaktiv infografik i Illustrator, en webformular, designede forsiden og implementerede dark mode.
+          </p>
+        </div>
+        <img class="billede" src="img/04_animation/emergency.png" alt="paris" />
+      </section>
+      <section class="grid_1-1h">
+        <img src="img/04_animation/infografik.png" alt="infografik" />
+        <div>
+          <h3>Infografik</h3>
+          <p>
+            I tema 04 skulle vi lave vores egen infografik i Adobe Illustrator ved hjælp af pentool. Fokus var på at skabe en visuel illustration, som vi senere gjorde interaktiv på vores site. Mit stiludgangspunkt var “Flat design” og mine
+            designvalg var en enkel og ren stil uden for mange detaljer, med bløde farver og minimale skygger. Jeg brugte tynde konturlinjer for at give illustrationerne et let og pænt udtryk, og jeg ville godt have at stilen generelt var moderne og
+            minimalistisk.
+          </p>
+        </div>
+      </section>
+      <section class="grid_1-1v">
+        <div>
+          <h3>Webformular</h3>
+          <p>
+            I tema 04 arbejdede vi med webformularer, hvor vi skulle lave en formular til vores site med forskellige inputfelter. Her indtaster brugeren fx navn, flynummer, forsinkelsesdetaljer m.m. Når man klikker på "Indsend", bliver oplysningerne
+            vist i et "Summary"-felt ved siden af, så man kan se en opsummering, inden man godkender.
+          </p>
+          <p>
+            Først nulstilles formen med .reset(), så alle felter er tomme fra start. Der sættes event listeners på "Indsend" og "Nulstil"-knapperne. Når man klikker "Indsend", hentes inputværdierne og vises i et summary-felt. Klikker man "Nulstil",
+            ryddes felterne, og summary skjules igen.
+          </p>
+        </div>
+        <div>
+          <img class="sammensat-billede" src="img/04_animation/webformular.png" alt="webformular" />
+          <img src="img/04_animation/forms_js.png" alt="javascript" />
+        </div>
+      </section>
+      <section class="grid_1-1h">
+        <div>
+          <img class="sammensat-billede" src="img/04_animation/dark_lightmode.png" alt="dark_lightmode" />
+          <img src="img/04_animation/dark_js.png" alt="dark_js" />
+        </div>
+        <div>
+          <h3>Dark- & light-mode</h3>
+          <p>
+            Vi valgte at implementere darkmode og lightmode på vores site, så brugeren selv kan vælge det udtryk, der passer bedst. Darkmode gør det mere behageligt for øjnene – især i mørke omgivelser – og giver en mere moderne og tilgængelig
+            brugeroplevelse. Derudover kan det også være en smule mere bæredygtigt på enheder med OLED-skærme, da sorte pixels her bruger mindre strøm. På den måde kombinerer darkmode både brugerkomfort, æstetik og en lille energibesparelse.
+          </p>
+        </div>
+        <a class="knap" href="https://silleulrich.dk/emergency-forsinkede_fly/" target="_blank">SE MIN LØSNING HER</a>
+      </section>
+    </main>
+    <footer>
+      <div class="footer_tekst">
+        <p>Sille Ulrich</p>
+        <p>1. Semester</p>
+      </div>
+    </footer>
+    <script src="js/menu.js"></script>
+  </body>
 </html>
